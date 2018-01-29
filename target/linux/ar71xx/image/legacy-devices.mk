@@ -288,8 +288,8 @@ endef
 LEGACY_DEVICES += DIR601B1
 
 define LegacyDevice/DIR505A1
-  DEVICE_TITLE := D-Link DIR-505 rev. A1
-  DEVICE_PACKAGES := kmod-usb-core kmod-usb2 kmod-usb-ledtrig-usbport
+  DEVICE_TITLE := D-Link DIR-505 rev. A1 (EmPOWER)
+  DEVICE_PACKAGES := kmod-usb-core kmod-usb2 kmod-usb-ledtrig-usbport empower-lvap-agent openvswitch luci
 endef
 LEGACY_DEVICES += DIR505A1
 
