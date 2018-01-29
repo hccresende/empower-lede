@@ -82,8 +82,8 @@ endef
 LEGACY_DEVICES += WNDR3700V4
 
 define LegacyDevice/WNDR4300V1
-  DEVICE_TITLE := NETGEAR WNDR4300v1
-  DEVICE_PACKAGES := kmod-usb-core kmod-usb-ohci kmod-usb2 kmod-usb-ledtrig-usbport
+  DEVICE_TITLE := NETGEAR WNDR4300v1 (EmPOWER)
+  DEVICE_PACKAGES := kmod-usb-core kmod-usb-ohci kmod-usb2 kmod-usb-ledtrig-usbport empower-lvap-agent openvswitch luci
 endef
 LEGACY_DEVICES += WNDR4300V1
 

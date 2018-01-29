@@ -168,8 +168,8 @@ TARGET_DEVICES += eap120
 
 define Device/tl-wdr4300-v1
 $(Device/tplink-8mlzma)
-  DEVICE_TITLE := TP-LINK TL-WDR4300 v1
-  DEVICE_PACKAGES := kmod-usb-core kmod-usb2 kmod-usb-ledtrig-usbport
+  DEVICE_TITLE := TP-LINK TL-WDR4300 v1 (EmPOWER)
+  DEVICE_PACKAGES := kmod-usb-core kmod-usb2 kmod-usb-ledtrig-usbport empower-lvap-agent openvswitch luci
   BOARDNAME := TL-WDR4300
   DEVICE_PROFILE := TLWDR4300
   TPLINK_HWID := 0x43000001
