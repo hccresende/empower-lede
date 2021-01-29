@@ -7,4 +7,5 @@ config wifi-device  radio0
 config wifi-iface empower0
         option device   radio0
         option mode     monitor
-        option ifname   moni0
+        option ifname   wlan0
+
